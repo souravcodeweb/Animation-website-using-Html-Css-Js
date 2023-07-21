@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 nav{
+    height: 8vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+#page1 nav .logo{
+    color: #fff;
+    font-size: 35px;
+}
+.right_nav button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background: #083fdc;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero_content h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+}
+.hero_content {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    height: 35vh;
+    width: 50vw;
+}
+.hero_iner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.hero_iner button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #7e98e5;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hero_iner p{
+    color: #fff;
+    font-size: 1.3vw;
+    line-height: 2;
+}
+
+/* this is page two code  */
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #0a3cce;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0vw 8vw;
+    color: #fff;
+}
+
+#page2 h2{
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+#page2 h1{
+    width: 80%;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+}
+
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e3ac8;
+}
+
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+
+#page4{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1337cb;
+}
+
+.page-text{
+    padding: 60px 150px;
+}
+.page-text p{
+    color: #fff;
+}
+
+.page-text h1{
+    width: 80vw;
+    color: #dadada69;
+    font-size: 4vw;
+    font-weight: 80;
+}
